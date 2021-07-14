@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,h4 {
+  color: #1abc9c;
+}
+
+.navbar {
+    padding: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.navbar-header a:hover {
+  color: black;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+
+#contact {
+  padding-right: 0;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+  flex: 1;
+}
+
+.footer {
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 22px;
+	font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+.spacing {
+  padding-bottom: 2%;
+}
+
+.spacing-sm {
+  padding-bottom: 1%;
+}
+
+
+
+/* Home Page */
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.blog-image {
+  text-align: center;
+}
+
+.blog-img {
+  height: 11rem;
+}
+
+.postShorts, .postLink {
+  display: inline;
+}
+
+
+
+/* About Page */
+
+.feature-section {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.feature-icon {
+  height: 5rem;
+  margin-bottom: 4%;
+}
+
+.feature-heading {
+  color: #1abc9c;
+  font-size: 20px;
+}
+
+
+
+/* Contact Page */
+
+h6 {
+  padding-top: 0.5%;
+}
+
+hr {
+  border-top: 1.5px solid #1abc9c;
+}
+
+.sanchita-img {
+  height: 15rem;
+  border-width: 2px;
+  border-radius: 49.5%;
+  border-style: solid;
+  border-color: #b9d7ea;
+}
+
+.dev-details {
+  padding-top: 8%;
+  text-align: center;
+}
+
+.dev-details p {
+  padding-top: 3%;
+}
+
+.dev-details a:hover {
+  color: #1abc9c !important;
+}
+
+
+
+/* Post Page */
+
+.post-content {
+  white-space: pre-line;
+}
+
+.edit-post,.delete-post {
+  margin-right: 6px;
+  display: inline-block;
+}
