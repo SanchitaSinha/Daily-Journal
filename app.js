@@ -14,7 +14,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const uri = "mongodb+srv://admin-sanchita:sanchi2604@cluster0.givyz.mongodb.net/blogDB";
+
+const uri = "mongodb+srv://username:password@cluster0.code.mongodb.net/blogDB";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
