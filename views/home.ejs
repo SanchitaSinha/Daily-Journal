@@ -1,0 +1,30 @@
+<%- include("partials/header"); -%>
+
+<div class="container-fluid">
+  <h1>Home</h1>
+
+  <div class="row">
+    <div class="col-md main">
+      <p>Whether you’re looking for a tool to record your daily emotions and activities in a reflective journal, keep track of milestones in a food diary or pregnancy journal, or even record your dreams in a dream journal, we have you covered.</p>
+      <p>We give you all the tools you need, to focus on the ideas you want to preserve, rather than the process of writing itself.</p>
+    </div>
+
+    <div class="col-md blog-image">
+      <img class="blog-img" src="images/blog.jpg" alt="blog-img">
+    </div>
+  </div>
+
+</div>
+
+<div class="spacing"></div>
+<div class="spacing"></div>
+
+<% posts.forEach( function(post) { %>
+<h4><%=post.title%></h4>
+<p class="postShorts"><%=post.content.substring(0, 99) + "..."%></p>
+<a class="postLink" href="/posts/<%=post._id%>">Read More</a>
+<div class="spacing"></div>
+<% }); %>
+
+
+<%- include("partials/footer"); -%>
